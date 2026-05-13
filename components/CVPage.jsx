@@ -183,32 +183,11 @@ export default function CVPage() {
           </section>
         )}
 
-        {certifications && certifications.length > 0 && (
-          <section className={styles.section}>
-            <div className={styles.sectionHeader}>
-              <span className={styles.sectionIcon}>🏆</span>
-              <h2 className={styles.sectionTitle}>Certifications</h2>
-            </div>
-            <div className={styles.certificationsGrid}>
-              {certifications.map((cert, index) => (
-                <div key={index} className={styles.certificationCard}>
-                  <div className={styles.certificationIcon}>🎓</div>
-                  <div className={styles.certificationInfo}>
-                    <h3 className={styles.certificationName}>{cert.name}</h3>
-                    <p className={styles.certificationMeta}>{cert.issuer}</p>
-                  </div>
-                  <span className={styles.certificationYear}>{cert.year}</span>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
-
         {education && education.length > 0 && (
           <section id="education" className={styles.section}>
             <div className={styles.sectionHeader}>
               <span className={styles.sectionIcon}>🎓</span>
-              <h2 className={styles.sectionTitle}>Education</h2>
+              <h2 className={styles.sectionTitle}>Education & Certifications</h2>
             </div>
             <div className={styles.educationList}>
               {education.map((edu, index) => (

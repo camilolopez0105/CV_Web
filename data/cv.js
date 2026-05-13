@@ -17,11 +17,7 @@ export const cvData = {
     databases: ['Azure', 'Fabric', 'MySQL', 'SQLite'],
     methodologies: ['ETL', 'Data Cleaning', 'Statistical Analysis'],
   },
-  certifications: [
-    { name: 'Google Data Analytics Professional Certificate', issuer: 'Google', year: '2024' },
-    { name: 'Introduction to Data Analysis with Python', issuer: 'freeCodeCamp', year: '2024' },
-    { name: 'SQL for Data Analysis', issuer: 'Mode Analytics', year: '2024' },
-  ],
+  certifications: [],
   experience: [
     {
       role: 'B2B Customer Service Associate',
