@@ -17,7 +17,6 @@ export const cvData = {
     'Next.js',
     'APIs',
     'Data Analysis',
-    'JavaScript',
     'Excel',
     'Git',
   ],
