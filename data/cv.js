@@ -61,12 +61,7 @@ export const cvData = {
     { language: 'Spanish', level: 'Native', flag: '🇨🇴' },
   ],
   education: [
-    {
-      degree: 'Google Data Analytics Professional Certificate',
-      institution: 'Coursera / Google',
-      year: '2024',
-      description: 'Data analysis fundamentals, SQL, R, Tableau, data visualization',
-    },
+    { name: 'Bootcamp Data Analytics & IA', institution: 'UpgradeHub · Madrid', year: 'Mayo 2026 — En curso', description: 'Python, SQL, Power BI, Azure ML, LLMs, Numpy, Pandas' },
     {
       degree: 'Bachelor of Science',
       institution: 'Institución Educativa La Paz',
@@ -110,7 +105,7 @@ export const cvData = {
     { name: 'Python', level: 'Intermediate', category: 'language' },
     { name: 'SQL', level: 'Intermediate', category: 'language' },
     { name: 'Power BI', level: 'Intermediate', category: 'visualization' },
-    { name: 'Excel', level: 'Advanced', category: 'visualization' },
+    { name: 'Excel', level: 'Intermediate', category: 'visualization' },
     { name: 'Git', level: 'Intermediate', category: 'tools' },
     { name: 'Jupyter', level: 'Intermediate', category: 'tools' },
     { name: 'Tableau', level: 'Beginner', category: 'visualization' },
