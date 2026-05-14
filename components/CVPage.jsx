@@ -25,7 +25,7 @@ export default function CVPage() {
 
       <main>
         <section id="about" className={styles.hero}>
-          <img src="/profile.jpg" alt={personal.firstName} className={styles.profileImage} />
+          <img src="/CV_Web/profile.jpg" alt={personal.firstName} className={styles.profileImage} />
           <span className={styles.tagline}>{personal.tagline}</span>
           <h1 className={styles.name}>
             {personal.firstName} <span>{personal.lastName}</span>
