@@ -22,7 +22,7 @@ export const cvData = {
       role: 'B2B Customer Service Associate',
       company: 'Stanley Black & Decker Services',
       location: 'Colombia',
-      date: 'July 2021 – July 2023',
+      date: 'July 2021 – January 2026',
       highlights: [
         'Analyzed operational KPIs and workflow metrics for a cross-functional team of 11, driving a 15% improvement in customer satisfaction (CSAT) and a 20% increase in resolution efficiency through data-driven adjustments.',
         'Modeled supply chain and fulfillment data to identify bottleneck patterns, collaborating with logistics partners to reduce order delays based on data-informed insights.',
