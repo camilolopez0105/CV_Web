@@ -4,7 +4,7 @@ export const cvData = {
     lastName: 'Lopez Restrepo',
     title: 'Data Analyst & IA Science',
     tagline: 'Transforming raw data into actionable insights',
-    bio: 'I am Camilo, Data Analyst with a strong background leading Customer Service operations, specializing in transforming operational and customer data into strategic insights. Combines business acumen with a technical toolkit in SQL, Power BI, and Python to identify trends, optimize processes, and support data-driven decision-making. Passionate about solving complex problems and effectively communicating data findings to both technical and business stakeholders.',
+    bio: 'Data Analyst with a strong background in leading Customer Service operations, specializing in transforming customer data into strategic insights. I combine business acumen with technical expertise in SQL, Power BI, and Python to identify trends, optimize processes, and support data-driven decision-making. I am passionate about solving complex problems and communicating data-driven insights clearly to both technical and non-technical stakeholders.',
     location: 'Granada, Spain',
     email: 'camilo.lopez0105@gmail.com',
     linkedin: 'https://www.linkedin.com/in/camilo-lopez-/',
@@ -19,14 +19,22 @@ export const cvData = {
   certifications: [],
   experience: [
     {
+      role: 'Bootcamp in Data Analytics & AI Science',
+      company: 'Upgrade Hub',
+      location: 'Madrid, Spain',
+      date: 'January 2026 – July 2026',
+      highlights: [
+        'Learned to collect, manage, clean, and transform raw data into actionable insights that support business decision-making through hands-on, project-based experience focused on real-world scenarios.',
+        'Key modules: Python, SQL, Power BI & Microsoft Fabric, ETL, Machine Learning, YOLO, Azure Cloud, AutoML & RAG Models.',
+      ],
+    },
+    {
       role: 'B2B Customer Service Associate',
       company: 'Stanley Black & Decker Services',
       location: 'Colombia',
       date: 'July 2021 – January 2026',
       highlights: [
-        'Analyzed operational KPIs and workflow metrics for a cross-functional team of 11, driving a 15% improvement in customer satisfaction (CSAT) and a 20% increase in resolution efficiency through data-driven adjustments.',
-        'Modeled supply chain and fulfillment data to identify bottleneck patterns, collaborating with logistics partners to reduce order delays based on data-informed insights.',
-        'Monitored SLA compliance data, maintaining a 95% resolution rate while identifying seasonal trends to optimize case management and reporting accuracy.',
+        'Managed quotations, orders and customer inquiries via email, chat and phone, consistently maintaining productivity and customer satisfaction as top priorities.',
       ],
     },
     {
@@ -35,20 +43,17 @@ export const cvData = {
       location: 'Colombia',
       date: 'July 2020 – June 2021',
       highlights: [
-        'Supervised operations analytics for 1,200+ monthly inquiries, analyzing resolution patterns to achieve a 98% resolution rate for system-related concerns within 24 hours.',
-        'Developed automated performance dashboards to deliver data-driven coaching, successfully improving the team\'s First-Contact Resolution (FCR) rate by 12%.',
-        'Designed and generated weekly BI reports tracking volume, resolution times, and CSAT trends, translating complex operational data into actionable insights for management decision-making.',
+        'Led a team of 10 customer service agents, monitoring performance to achieve exceptional customer satisfaction levels while maintaining top productivity.',
+        'Conducted 1-1 meetings to provide feedback on case resolution and problem handling, delivering soft skills training to improve team performance.',
       ],
     },
     {
-      role: 'Customer Service Associate',
+      role: 'Customer Service Associate - Lyft account',
       company: 'Onelink BPO',
       location: 'Colombia',
       date: 'October 2018 – June 2020',
       highlights: [
-        'Optimized procurement processes by analyzing supplier quotes and cost datasets, reducing average procurement costs by 10% through data-driven negotiation insights.',
-        'Audited order fulfillment documentation, ensuring 99% data accuracy through systematic verification and quality control processes.',
-        'Analyzed recurring inquiry patterns from 40+ daily customer interactions to project potential escalations, increasing response efficiency while maintaining a satisfaction rating above 4.5/5.',
+        'Managed inquiries from Lyft drivers and passengers via phone, email and chat, resolving complex problems regarding payments, service provided and app functionality.',
       ],
     },
   ],
@@ -71,6 +76,13 @@ export const cvData = {
     },
   ],
   projects: [
+    {
+      name: 'HR Attrition Analytics',
+      description: 'From raw data, cleaned and transformed data, built data pipelines with Azure and Microsoft Fabric, built interactive Power BI dashboard, and applied machine learning methods to predict personnel rotation and attrition.',
+      stack: ['Power BI', 'Microsoft Fabric', 'Azure', 'Python', 'Machine Learning'],
+      link: 'https://github.com/camilolopez0105',
+      github: 'https://github.com/camilolopez0105',
+    },
     {
       name: 'VideoGames Dashboard BI',
       description: 'Built an interactive Power BI dashboard analyzing global video game sales using Power Query (ETL), DAX for business KPIs, and Microsoft Fabric for data orchestration. Integrated multiple data sources with automated refresh workflows to deliver a self-service BI tool for stakeholder decision-making.',
